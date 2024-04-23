@@ -1,35 +1,12 @@
 import React from "react";
+import Header from "./component/Header/Header";
 
 
 export default function App() {
   return (
     <>
-      <header>
-        <div classNameName="header-content">
-          <h1 className="title">
-            <u>Ode Ardika</u>
-          </h1>
-          <nav classNameName="navigation" id="navigation">
-            <div className="nav-button">
-              <hr className="top" />
-              <hr className="mid" />
-              <hr className="bottom" />
-            </div>
-            <ul className="navigation-list" id="navigation-list">
-              <li>
-                <a href="#profile">Profile</a>
-              </li>
-              <li>
-                <a href="#project">Project</a>
-              </li>
-              <li>
-                <a href="#achievement">Achievement</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <main>
+      <Header/>
+      {/* <main>
         <div className="content">
             <div className="profile" id="profile">
                 <article className="profile-article">
@@ -120,7 +97,7 @@ export default function App() {
             <hr/>
             <p>&copy; Copyright 2024 by <span>Ode Ardika</span></p>
         </div>
-    </footer>
+    </footer> */}
     </>
   );
 }

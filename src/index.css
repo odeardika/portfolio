@@ -17,61 +17,14 @@ body{
   background-color: var(--bg-color)
 }
 
-header{
+/* header{
   background-color: var(--primary-color);
   color: var(--bg-color);
   z-index: 9999;
   position: sticky;
   top: 0;
-}
+} */
 
-h1.title{
-  margin-left: 5rem;
-  padding: 1rem;
-  background-color: var(--third-color);
-  color: var(--primary-color);
-  border-radius: 5px;
-}
-
-h1.title u{
-  text-decoration-color: var(--forth-color);
-}
-
-header .header-content{
-  display: flex;
-  flex-direction: row;
-  max-width: 1200px;
-  align-items: center;
-  justify-content:space-between;
-}
-
-ul.navigation-list{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-inline: auto;
-  gap: 5rem;
-  
-}
-
-ul.navigation-list li{
-  list-style-type: none;
-  
-}
-
-ul.navigation-list li a{
-  text-decoration: none;
-  padding: 0rem 0rem;
-  transition: all 0.2s ease-in-out;
-  color: var(--text-color);
-}
-
-ul.navigation-list li a:hover{
-  text-decoration: underline;
-  text-decoration-color: var(--forth-color);
-  border-bottom: var(--forth-color);
-  color:  var(--third-color);
-}
 .profile {
   background-color: var(--secondary-color);
 }
@@ -307,9 +260,6 @@ footer p span {
   color: var(--third-color);
 }
 
-nav.navigation div.nav-button{
-  display: none;
-}
 
 @media screen and (max-width: 768px) {
   body{
@@ -318,7 +268,7 @@ nav.navigation div.nav-button{
       margin: 0; 
   }
 
-  h1.title{
+  /* h1.title{
       margin-left: 0.5rem;
       padding: 1rem;
       background-color: var(--third-color);
@@ -326,25 +276,23 @@ nav.navigation div.nav-button{
       border-radius: 5px;
       white-space: nowrap;
       font-size: 1.5rem;
-  }
+  } */
 
-  nav.navigation-open {
-      /* right: 0; */
+  /* nav.navigation-open {
       top: 0;
       display: block;
       position: fixed;
       background-color: var(--primary-color);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       padding-left: 0.5rem;
-  }
+  } */
   
   
-  nav.navigation ul.navigation-list{
+  /* nav.navigation ul.navigation-list{
       display: none;
   }
   
   nav.navigation-open {
-      /* background-color: #020626; */
       padding-right: 0;
       margin-right: 0;
   }
@@ -401,17 +349,16 @@ nav.navigation div.nav-button{
   .profile article.profile-article .image-profile{
       padding: 0;
       margin: 0;
-  }
+  } */
 
-  div.profile-detail{
+  /* div.profile-detail{
       margin: 0;
-      /* align-items: center; */
       text-align: center;
   }
 
   div.profile-detail h2{
       margin: 0;
-  }
+  } */
 
   div.img-section {
       display: flex;

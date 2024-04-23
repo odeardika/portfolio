@@ -1,0 +1,68 @@
+:root {
+    --primary-color : #FFFFFF;
+    --secondary-color : #323848;
+    --third-color : #336EF9;
+    --forth-color : #FFB302;
+    --text-color : #020626;
+    --bg-color : #F5F7FA;
+    --secondary-bg-color : #f0f3f9; 
+}
+
+.header{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navigation_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-inline: auto;
+    gap: 5rem;
+    
+}
+
+.navigation_list li{
+    list-style-type: none;
+    
+}
+
+.navigation_list li a{
+    text-decoration: none;
+    padding: 0rem 0rem;
+    transition: all 0.2s ease-in-out;
+    color: var(--text-color);
+}
+
+.navigation_list li a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--forth-color);
+    border-bottom: var(--forth-color);
+    color:  var(--third-color);
+}
+
+.title{
+    margin-left: 5rem;
+    padding: 1rem;
+    background-color: var(--third-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.title u{
+    text-decoration-color: var(--forth-color);
+}
+.nav_button{
+    display: none;
+}
