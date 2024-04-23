@@ -267,25 +267,6 @@ footer p span {
       padding: 0;
       margin: 0; 
   }
-
-  /* h1.title{
-      margin-left: 0.5rem;
-      padding: 1rem;
-      background-color: var(--third-color);
-      color: var(--primary-color);
-      border-radius: 5px;
-      white-space: nowrap;
-      font-size: 1.5rem;
-  } */
-
-  /* nav.navigation-open {
-      top: 0;
-      display: block;
-      position: fixed;
-      background-color: var(--primary-color);
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      padding-left: 0.5rem;
-  } */
   
   
   /* nav.navigation ul.navigation-list{
