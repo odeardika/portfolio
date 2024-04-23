@@ -17,93 +17,7 @@ body{
   background-color: var(--bg-color)
 }
 
-.profile {
-  background-color: var(--secondary-color);
-}
 
-.profile article.profile-article{
-  display: flex;
-  flex-direction: row;
-  max-width: 1200px;
-  justify-content: space-around;
-  align-items: center;
-  margin-inline: auto;
-  gap: 1rem;
-  padding-top: 1rem;
-  margin-bottom: 20px
-}
-
-.profile article.profile-article .profile-detail{
-  padding: 3rem;
-  color: var(--primary-color);
-}
-.profile article.profile-article .profile-detail p{
-  display: none;
-  margin-bottom: 0;
-}
-.profile article.profile-article .profile-detail h2 {
-  font-size: 4rem;
-  margin-bottom: 0;
-}
-
-.profile article.profile-article .profile-detail h2 span.name{
-  color: var(--primary-color);
-}
-
-.profile article.profile-article .profile-detail h2 span.name:hover{
-  text-decoration: underline;
-  text-decoration-color: var(--forth-color);
-  text-decoration-thickness: 0.1rem;
-}
-
-.profile article.profile-article .profile-detail h3{
-  font-size: 1.5rem;
-  margin-top: 0.5rem;
-}
-
-.profile article.profile-article .profile-detail h3 span.role{
-  color: var(--forth-color);
-}
-
-.profile article.profile-article .profile-detail h3 span.role:hover{
-  text-decoration: underline;
-  text-decoration-color: var(--forth-color);
-  text-decoration-thickness: 0.1rem;
-}
-
-.profile article.profile-article .profile-detail button{
-  background-color: var(--third-color);
-  color: var(--primary-color);
-  border-radius: 10000px;
-  border-style: none;
-  font-size: 1.5rem;
-  height: 4rem;
-  width: 13rem;
-}
-
-.profile article.profile-article .profile-detail button:hover{
-  background-color: var(--forth-color);
-  color: #020626;
-}
-
-.profile article.profile-article .profile-detail .hidden{
-  color: var(--third-color);
-  display: none;
-}
-.profile article.profile-article .profile-detail .hidden:hover{
-  color: var(--forth-color);
-}
-
-
-.profile article.profile-article .image-profile{
-  box-sizing: content-box;
-  border-radius: 999px;
-}
-
-.profile article.profile-article .image-profile img{
-  height: 400px;
-  border-radius: 999px;
-}
 
 .content .project {
   background-color: var(--bg-color);
@@ -230,31 +144,9 @@ main div.content div.project article div svg{
       margin: 0; 
   }
 
-  .profile article.profile-article {
-      display: flex;
-      flex-direction: column-reverse;
-  }
+  
 
-  .profile article.profile-article h2 span {
-      font-size: smaller;
-      margin-top: 0;
-      padding-top: 0;
-      
-  }
-
-  .profile article.profile-article .image-profile{
-      padding: 0;
-      margin: 0;
-  } */
-
-  /* div.profile-detail{
-      margin: 0;
-      text-align: center;
-  }
-
-  div.profile-detail h2{
-      margin: 0;
-  } */
+  
 
   div.img-section {
       display: flex;

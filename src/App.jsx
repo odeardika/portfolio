@@ -1,29 +1,17 @@
 import React from "react";
 import Header from "./component/Header/Header";
 import Footer from "./component/Footer/Footer";
+import Profile from "./component/Profile/Profile";
 
 
 export default function App() {
   return (
     <>
       <Header/>
-      {/* <main>
+      <main>
         <div className="content">
-            <div className="profile" id="profile">
-                <article className="profile-article">
-                    <div className="profile-detail">
-                        <h2><span className="name">Ode Ardika</span></h2>
-                        <h3><span className="role">Software Developer</span>, <span className="role">Machine Learning Developer</span></h3>
-                        <button className="more-detail" id="profile-more">More</button>
-                        <p>Saya saat ini masih menjadi mahasiswa dari Universitas Udayana dengan jurusan Informatika. Programing dan menyelesaikan permasalah koding merupakan salah satu hobi saya. Saya memiliki kempuan dan pengalaman dalam pengembangan perangkat lunak berbasis web dan desktop, serta berpenganlam dalam pengembangan model <i>Machine Learning</i></p>
-                        <div className="hidden" id="profile-hidden"><u>hidden</u></div>
-                    </div>
-                    <div className="image-profile">
-                        <img src="https://odeardika.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmy_pict.d6f2961d.png&w=640&q=75" alt="Picture of OdeArdika"/>
-                    </div>
-                </article>
-            </div>
-            <div className="project" id="project">
+            <Profile />
+            {/* <div className="project" id="project">
                 <h2 className="title">Project</h2>
                 <article className="cashir-desktop">
                     <div className="img-section">
@@ -57,8 +45,8 @@ export default function App() {
                         <p>Aplikasi ini bertujuan memudahkan mencari artikel pada website <a href="">hacker news</a></p>
                     </div>
                 </article>
-            </div>
-            <div className="achievement" id="achievement">
+            </div> */}
+            {/* <div className="achievement" id="achievement">
                 <h2>Achievement</h2>
                 <article>
                     <img src="assets\img\achievement\TensorFlow_Data_and_Deployment.jpg" alt="TensorFlow Data and Deployment"/>
@@ -68,9 +56,9 @@ export default function App() {
                     <img src="assets\img\achievement\bangkit.jpg" alt="Bangkit"/>
                     <h3>Sertifikat Bangkit Specializing in Machine Learning</h3>
                 </article>
-            </div>
+            </div> */}
         </div>
-        <aside>
+        {/* <aside>
             <div className="social-media-icon">
                 <ul>
                     <li className="github-icon">
@@ -90,9 +78,9 @@ export default function App() {
                     </li>
                 </ul>   
             </div>
-        </aside>
+        </aside> */}
     </main>
-     */}
+    
     <Footer/>
     </>
   );
