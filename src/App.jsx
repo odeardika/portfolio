@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./component/Header/Header";
+import Footer from "./component/Footer/Footer";
 
 
 export default function App() {
@@ -91,13 +92,8 @@ export default function App() {
             </div>
         </aside>
     </main>
-    <footer>
-        <div className="copyright">
-            <h2>Terimakasih sudah mampir ke website ini</h2>
-            <hr/>
-            <p>&copy; Copyright 2024 by <span>Ode Ardika</span></p>
-        </div>
-    </footer> */}
+     */}
+    <Footer/>
     </>
   );
 }

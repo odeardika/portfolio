@@ -1,0 +1,55 @@
+:root {
+    --primary-color : #FFFFFF;
+    --secondary-color : #323848;
+    --third-color : #336EF9;
+    --forth-color : #FFB302;
+    --text-color : #020626;
+    --bg-color : #F5F7FA;
+    --secondary-bg-color : #f0f3f9; 
+}
+
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color: #1b1f2e   
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.thankyou_text {
+    color: var(--bg-color);
+    font-size: 2rem;
+}
+  
+p {
+    color: #8d91a2;
+}
+  
+hr {
+    border-bottom:1px #8d91a2;
+    width: 20rem;
+}
+  
+p span {
+    color: var(--third-color);
+}
+
+@media screen and (max-width: 768px){
+    .copyright h2{
+        font-size: medium;
+    }
+  
+    hr {
+        width: 8rem;
+    }
+  
+    p {
+        font-size: smaller;
+    }
+}

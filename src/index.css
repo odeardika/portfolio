@@ -17,14 +17,6 @@ body{
   background-color: var(--bg-color)
 }
 
-/* header{
-  background-color: var(--primary-color);
-  color: var(--bg-color);
-  z-index: 9999;
-  position: sticky;
-  top: 0;
-} */
-
 .profile {
   background-color: var(--secondary-color);
 }
@@ -229,36 +221,6 @@ main div.content div.project article div svg{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-footer {
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  background-color: #1b1f2e   
-}
-
-footer .copyright{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-inline: auto;
-}
-
-footer h2{
-  color: var(--bg-color);
-  font-size: 2rem;
-}
-
-footer p {
-  color: #8d91a2;
-}
-
-footer hr{
-  border-bottom:1px #8d91a2;
-  width: 20rem;
-}
-
-footer p span {
-  color: var(--third-color);
-}
 
 
 @media screen and (max-width: 768px) {
@@ -266,53 +228,6 @@ footer p span {
       max-width: 768px;
       padding: 0;
       margin: 0; 
-  }
-  
-  
-  /* nav.navigation ul.navigation-list{
-      display: none;
-  }
-  
-  nav.navigation-open {
-      padding-right: 0;
-      margin-right: 0;
-  }
-
-  nav.navigation-open ul.navigation-list-open{
-      display: flex;
-      flex-direction: column;
-      padding-right: 0.5rem;
-  }
-  nav.navigation div.nav-button hr{
-      width: 1.5rem;
-      margin: 0;
-  }
-
-  nav.navigation div.nav-button hr.top{
-      margin-top: 0.5rem;
-  }
-
-  nav.navigation div.nav-button hr.mid{
-      margin-top: 0.3rem;
-      margin-bottom: 0.3rem;
-  }
-
-  nav.navigation div.nav-button hr.bottom{
-      margin-bottom: 0.5rem;
-  }
-  
-  nav.navigation div.nav-button{
-      display: flex;
-      flex-direction: column;
-      padding-left: 0.3rem;
-      padding-right: 0.3rem;
-      margin-right: 0.5rem; 
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 5px;
-      background-color: var(--third-color);
-      max-width: fit-content;
-      
   }
 
   .profile article.profile-article {
@@ -417,15 +332,4 @@ footer p span {
       width: 2.5rem;
   }
 
-  footer .copyright h2{
-      font-size: medium;
-  }
-
-  footer hr {
-      width: 8rem;
-  }
-
-  footer .copyright p {
-      font-size: smaller;
-  }
 }
