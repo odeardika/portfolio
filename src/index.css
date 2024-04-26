@@ -19,46 +19,7 @@ body{
 
 
 
-.content .project {
-  background-color: var(--bg-color);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-inline: auto;
-  max-width: 1200px;
-  padding: 20px;
-  flex-direction: column;
-}
 
-
-.project article{
-  margin-bottom: 20px;
-}
-
-.project .img-section{
-  display: flex;
-  align-items: center;
-  margin-inline: auto;
-}
-
-.project .img-section div{
-  width: 50px;
-}
-
-.project .img-section div.back{
-  transform: scaleX(-1);
-}
-
-.project .img-section img{
-  background-color: var(--primary-color);
-  width: 800px;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  padding: 2rem;
-  transition-property: 'margin-right';
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
 
 
 .achievement img{
