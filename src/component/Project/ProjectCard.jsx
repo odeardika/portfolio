@@ -1,7 +1,5 @@
 import React from 'react';
 import style from './Project.module.css';
-import cashirImg from './../../../public/img/project/cashir-desktop.png';
-import hackerNewsImg from './../../../public/img/project/hacker-news.png';
 
 export default function ProjectCard({props}) {
   return (

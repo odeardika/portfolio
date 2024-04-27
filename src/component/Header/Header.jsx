@@ -4,7 +4,7 @@ import style from './Header.module.css'
 export default function Header() {
     const navigation = [{id : 1, placeholder : "Profile", href : "#profile",},
                         {id : 2, placeholder : "Project", href : "#project"},
-                        {id : 3, placeholder : "Achievement", href : "#achievement"}];
+                        {id : 3, placeholder : "Certificate", href : "#certificate"}];
     const [isNavOpen, setIsNavOpen] = useState(false)
     
     function handleIsNavOpen(event){

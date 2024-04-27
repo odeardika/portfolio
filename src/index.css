@@ -17,36 +17,6 @@ body{
   background-color: var(--bg-color)
 }
 
-
-
-
-
-
-.achievement img{
-  width: 800px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.achievement {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-inline: auto;
-  padding: 20px;
-  flex-direction: column;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  background-color: var(--secondary-bg-color);
-}
-
-.content .achievement .title{
-  margin-inline: auto;
-}
-
-.achievement article{
-  margin-bottom: 20px;
-}
-
 main aside {
   position: fixed;
   inset-block: 0;

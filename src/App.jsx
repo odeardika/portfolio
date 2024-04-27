@@ -3,6 +3,7 @@ import Header from "./component/Header/Header";
 import Footer from "./component/Footer/Footer";
 import Profile from "./component/Profile/Profile";
 import Project from "./component/Project/Project";
+import Certificate from "./component/Certificate/Certificate";
 
 
 export default function App() {
@@ -13,17 +14,7 @@ export default function App() {
         <div className="content">
             <Profile />
             <Project/>
-            {/* <div className="achievement" id="achievement">
-                <h2>Achievement</h2>
-                <article>
-                    <img src="assets\img\achievement\TensorFlow_Data_and_Deployment.jpg" alt="TensorFlow Data and Deployment"/>
-                    <h3>Sertifikat TensorFlow: Data and Deployment</h3>
-                </article>
-                <article>
-                    <img src="assets\img\achievement\bangkit.jpg" alt="Bangkit"/>
-                    <h3>Sertifikat Bangkit Specializing in Machine Learning</h3>
-                </article>
-            </div> */}
+            <Certificate />
         </div>
         {/* <aside>
             <div className="social-media-icon">
