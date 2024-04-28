@@ -5,6 +5,7 @@ import Profile from "./component/Profile/Profile";
 import Project from "./component/Project/Project";
 import Certificate from "./component/Certificate/Certificate";
 import SosMed from "./component/SosMed/SosMed";
+import Technology from "./component/Technology/Technology";
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <main>
         <div className="content">
             <Profile />
+            <Technology />
             <Project/>
             <Certificate />
         </div>

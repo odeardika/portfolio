@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import style from './Header.module.css'
 
 export default function Header() {
-    const navigation = [{id : 1, placeholder : "Profile", href : "#profile",},
+    const navigation = [{id : 1, placeholder : "Home", href : "#home",},
+                        {id : 2, placeholder : "Technology", href: "#tech"},
                         {id : 2, placeholder : "Project", href : "#project"},
                         {id : 3, placeholder : "Certificate", href : "#certificate"}];
     const [isNavOpen, setIsNavOpen] = useState(false)
