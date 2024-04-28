@@ -2,12 +2,13 @@ import React, {useState} from 'react';
 import style from './Project.module.css';
 import ProjectCard from './ProjectCard';
 import arrow from '../../assets/arrow.svg';
-import cashirImg from './../../../public/img/project/cashir-desktop.png';
-import hackerNewsImg from './../../../public/img/project/hacker-news.png';
+import cashirImg from '../../assets/project/cashir-desktop.png';
+import hackerNewsImg from '../../assets/project/hacker-news.png';
+import savker from '../../assets/project/savker.png';
 
 const projectList = [{title : "Cashir Desktop Application", img : cashirImg, alt: "Cashir App", desc : "A Simple Cashir app for grocery store. This application is create using python and tkinter library. The purpose of this application is to help transaction at my store and store transaction data to be anylize for making better decision."},
                      {title : "Hacker News Preview", img : hackerNewsImg, alt: "Hacker News Preview", desc : "Website to help preview story from HackerNews Website. This website is create using NextJS and Tailwind Framework. The purpose of this website to help find an article or story from Hacker News Website which is a text only website."},
-                     {title : "Wisata Finder", img : "https://raw.githubusercontent.com/odeardika/odeardika-page/main/public/assets/portfolio/wisata_finder.png", alt: "Wisata Finder", desc : "Website to help find tourist attractions. We created this application to help spread tourist attractions in Bali. I act as a backend in making this application using PHP programming language and MYSQL database"},
+                     {title : "Savker", img : savker, alt: "Savker", desc : "Website to help people saving money to accomplish there whislist item. This project is create using React and Express Backend. The purpose of this project is to track our saving and much more saving needed to gain our wishlist item or product."},
                      {title : "Wisata Finder", img : "https://raw.githubusercontent.com/odeardika/odeardika-page/main/public/assets/portfolio/wisata_finder.png", alt: "Wisata Finder", desc : "Website to help find tourist attractions. We created this application to help spread tourist attractions in Bali. I act as a backend in making this application using PHP programming language and MYSQL database"}]
 
 export default function Project() {
@@ -24,8 +25,6 @@ export default function Project() {
     })
   }
 
-
-  
 
   return (
     <>

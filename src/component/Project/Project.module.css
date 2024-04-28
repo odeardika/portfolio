@@ -47,6 +47,7 @@ svg{
 
 .card{
     width: 50rem;
+    height: 35rem;
     border-radius: 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: flex;
@@ -78,6 +79,7 @@ svg{
     .card{
         order: -1;
         width: 94%;
+        height: 23rem;
         border-radius: 1rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         display: flex;
