@@ -3,10 +3,11 @@
     justify-content: space-around;
     align-items: center;
     margin-inline: auto;
-    /* max-width: 1200px; */
     padding: 20px;
     flex-direction: column;
     background-color: hsl(216, 33%, 85%);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .title {
