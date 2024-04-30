@@ -8,7 +8,7 @@ import lingkedinImg from '../../assets/icon/linkedin.svg';
 export default function SosMed() {
     const listIcon = [{id : 1,img : githubImg, alt : "github", href : "https://github.com/odeardika"},
                       {id : 2,img : lingkedinImg, alt : "linkedin", href : "https://www.linkedin.com/in/putu-ode-irfan-ardika-178373275/"},
-                      {id : 3,img : instagramImg, alt : "instagram", href : "https://www.instagram.com/odeardika/"}]
+                      {id : 3,img : instagramImg, alt : "instagram", href : "https://www.instagram.com/odeardika.dev/"}]
   
     return (
     <>
