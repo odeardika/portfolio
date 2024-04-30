@@ -83,11 +83,13 @@
     .navigation_open {
         right: 0;
         top: 0;
-        display: block;
+        display: flex;
+        flex-direction: column;
         position: fixed;
         background-color: var(--primary-color);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         padding-left: 0.5rem;
+        align-items: end;
     }
     .navigation_open {
         padding-right: 0;
@@ -98,6 +100,7 @@
         display: flex;
         flex-direction: column;
         padding-right: 0.5rem;
+        margin-top: 0;
     }
     .top,.mid,.bottom{
         width: 1.5rem;
@@ -136,7 +139,7 @@
         align-items: center;
         justify-content: space-around;
         margin-inline: auto;
-        gap: 5rem;
+        gap: 1.5rem;
         
     }
     
